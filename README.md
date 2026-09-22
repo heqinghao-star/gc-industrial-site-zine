@@ -12,7 +12,7 @@ The skill treats a photograph as evidence of a spatial or mechanical system. It 
 - References contribute visual grammar without contributing their text, brands, interface, or exact composition.
 - Default output is a landscape 4:3 travel-zine poster with English technical labels.
 
-## Install
+## Install in Codex
 
 Clone the repository into your Codex skills directory:
 
@@ -21,6 +21,18 @@ git clone https://github.com/heqinghao-star/gc-industrial-site-zine.git ~/.codex
 ```
 
 Restart or reload Codex after installation.
+
+Then invoke it explicitly in a prompt:
+
+```text
+Use $gc-industrial-site-zine to transform this photo into a deconstructivist industrial site-analysis travel zine.
+```
+
+## Use with another AI agent
+
+Download or clone this repository and import the complete `gc-industrial-site-zine` folder if the agent supports folder-based Markdown skills. Keep `SKILL.md`, `agents/`, and `references/` together so the linked instructions remain available.
+
+For an AI system without a skills directory, provide `SKILL.md` as the main instruction file and make the files in `references/` available as supporting context. Tool names and image-generation calls may need adaptation for that system.
 
 ## Example requests
 
@@ -47,3 +59,7 @@ Analyze these references first, separate reusable rules from sample residue, the
 ## Notes
 
 The repository intentionally contains no user photographs or generated examples. Supply your own images when invoking the skill.
+
+## License
+
+Released under the [MIT License](LICENSE). You may use, copy, modify, and redistribute this skill, including commercially, provided that the copyright and license notices are retained.
