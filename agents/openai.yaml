@@ -1,0 +1,5 @@
+interface:
+  display_name: "Industrial Site Zine"
+  short_description: "Deconstruct photos into industrial travel-zine site studies"
+  brand_color: "#B55C3A"
+  default_prompt: "Use $gc-industrial-site-zine to transform this photo into a deconstructivist industrial site-analysis travel zine."
